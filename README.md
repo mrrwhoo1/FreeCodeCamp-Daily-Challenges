@@ -25,6 +25,8 @@ FreeCodeCamp-Daily-Challenges/
 | [August 13 — Fibonacci Sequence](#august-13--fibonacci-sequence) | Fibonacci Sequence | [Python file](August-2025/August-13_FibonacciSequence.py) |
 | [August 13 — Space Jam](#august-13--space-jam) | Space Jam | [Python file](August-2025/August-13_SPACEJAM.py) |
 | [August 14 — Jbelmud Text](#august-14--jbelmud-text) | Jbelmud Text | [Python file](August-2025/August-14_jbelmuText.py) |
+| [August 15 — Anagram Checker](#august-15--anagram-checker) | Anagram Checker | [Python file](August-2025/August-15_AnagramChecker.py) |
+
 | [Future Updates](#future-updates) | — | — |
 
 ## About This Repository
