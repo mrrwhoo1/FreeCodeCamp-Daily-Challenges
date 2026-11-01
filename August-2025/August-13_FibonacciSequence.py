@@ -26,5 +26,4 @@ def fibonacci_sequence(start_sequence, length):
        next_value = return_values[-1] + return_values[-2]
        return_values.append(next_value)
     return return_values
-print(fibonacci_sequence([0,1,2], 20))
 
