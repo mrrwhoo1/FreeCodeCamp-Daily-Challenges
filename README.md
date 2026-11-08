@@ -2,16 +2,28 @@
 
 My Python solutions to freeCodeCamp's Daily Coding Challenges. This repository documents my progress, problem-solving approaches, and what I learn from each challenge.
 
-## Repository Structure
+Repository Structure
 
-```text
-FreeCodeCamp-Daily-Challenges/
+<details>
+<summary>▶ Click to view the repository structure</summary><br>FreeCodeCamp-Daily-Challenges/
 ├── README.md
 └── August-2025/
     ├── August-11_VowelBalance.py
     ├── August-12_BaseCheck.py
     ├── August-13_FibonacciSequence.py
-```
+    ├── August-13_SPACEJAM.py
+    ├── August-14_jbelmuText.py
+    ├── August-15_AnagramChecker.py
+    ├── August-17_TargetedSum.py
+    ├── August-18_Factorializer.py
+    ├── August-19_SumSquares.py
+    ├── August-20_3Strikes.py
+    ├── August-21_MilePace.py
+    ├── August-22_MessageDecoder.py
+    ├── August-23_UnaturalPrime.py
+    └── August-25_cameCase.py
+
+</details>
 
 ## Table of Contents
 
