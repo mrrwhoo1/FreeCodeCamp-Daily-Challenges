@@ -10,11 +10,5 @@ Given an array of integers, return an array of integers that appear more than on
 
 
 def find_duplicates(arr):
-
-    duplicates = []
-
-    for i in set(arr):
-        if arr.count(i) > 1:
-            duplicates.append(i)
-
+    duplicates = [i for i in set(arr) if arr.count(i) > 1]
     return sorted(duplicates)
