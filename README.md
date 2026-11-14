@@ -1,11 +1,11 @@
-# FreeCodeCamp Daily Coding Challenges
+# freeCodeCamp Daily Coding Challenges
 
 My Python solutions to freeCodeCamp's Daily Coding Challenges. I use this repository to keep track of the challenges I've completed and how I approached each one.
 
 ## Repository Structure
 
 <details>
-<summary> Click to view the repository structure</summary>
+<summary>Click to view the repository structure</summary>
 
 <br />
 
@@ -16,9 +16,9 @@ FreeCodeCamp-Daily-Challenges/
     ├── August-11_VowelBalance.py
     ├── August-12_BaseCheck.py
     ├── August-13_FibonacciSequence.py
-    ├── August-13_SPACEJAM.py
-    ├── August-14_jbelmuText.py
-    ├── August-15_AnagramChecker.py
+    ├── August-14_SPACEJAM.py
+    ├── August-15_jbelmuText.py
+    ├── August-16_AnagramChecker.py
     ├── August-17_TargetedSum.py
     ├── August-18_Factorializer.py
     ├── August-19_SumSquares.py
@@ -26,33 +26,38 @@ FreeCodeCamp-Daily-Challenges/
     ├── August-21_MilePace.py
     ├── August-22_MessageDecoder.py
     ├── August-23_UnaturalPrime.py
-    └── August-25_cameCase.py
+    ├── August-24_CharacterBattle.py
+    ├── August-25_cameCase.py
+    ├── August-27_UnorderOfOperations.py
+    ├── August-28_SecondBest.py
+    └── August-30_ArrayDuplicates.py
 ```
 
 </details>
 
 ## Table of Contents
 
-| Section | Challenge | Solution |
-|---|---|---|
-| [About This Repository](#about-this-repository) | — | — |
-| [My Problem-Solving Philosophy](#my-problem-solving-philosophy) | — | — |
-| [Progress](#progress) | — | — |
-| [August 11 — Vowel Balance](#august-11--vowel-balance) | Vowel Balance | [Python file](August-2025/August-11_VowelBalance.py) |
-| [August 12 — Base Check](#august-12--base-check) | Base Check | [Python file](August-2025/August-12_BaseCheck.py) |
-| [August 13 — Fibonacci Sequence](#august-13--fibonacci-sequence) | Fibonacci Sequence | [Python file](August-2025/August-13_FibonacciSequence.py) |
-| [August 13 — Space Jam](#august-13--space-jam) | Space Jam | [Python file](August-2025/August-13_SPACEJAM.py) |
-| [August 14 — Jbelmud Text](#august-14--jbelmud-text) | Jbelmud Text | [Python file](August-2025/August-14_jbelmuText.py) |
-| [August 15 — Anagram Checker](#august-15--anagram-checker) | Anagram Checker | [Python file](August-2025/August-15_AnagramChecker.py) |
-| [August 17 — Targeted Sum](#august-17--targeted-sum) | Targeted Sum | [Python file](August-2025/August-17_TargetedSum.py) |
-| [August 18 — Factorializer](#august-18--factorializer) | Factorializer | [Python file](August-2025/August-18_Factorializer.py) |
-| [August 19 — Sum of Squares](#august-19--sum-of-squares) | Sum of Squares | [Python file](August-2025/August-19_SumSquares.py) |
-| [August 20 — 3 Strikes](#august-20--3-strikes) | 3 Strikes | [Python file](August-2025/August-20_3Strikes.py) |
-| [August 21 — Mile Pace](#august-21--mile-pace) | Mile Pace | [Python file](August-2025/August-21_MilePace.py) |
-| [August 22 — Message Decoder](#august-22--message-decoder) | Message Decoder | [Python file](August-2025/August-22_MessageDecoder.py) |
-| [August 23 — Unnatural Prime](#august-23--unnatural-prime) | Unnatural Prime | [Python file](August-2025/August-23_UnaturalPrime.py) |
-| [August 25 — Camel Case](#august-25--camel-case) | Camel Case | [Python file](August-2025/August-25_cameCase.py) |
-| [Future Updates](#future-updates) | — | — |
+- [About This Repository](#about-this-repository)
+- [My Problem-Solving Philosophy](#my-problem-solving-philosophy)
+- [Progress](#progress)
+- [August 11 — Vowel Balance](#august-11--vowel-balance)
+- [August 12 — Base Check](#august-12--base-check)
+- [August 13 — Fibonacci Sequence](#august-13--fibonacci-sequence)
+- [August 14 — Space Jam](#august-14--space-jam)
+- [August 15 — Jbelmud Text](#august-15--jbelmud-text)
+- [August 16 — Anagram Checker](#august-16--anagram-checker)
+- [August 17 — Targeted Sum](#august-17--targeted-sum)
+- [August 18 — Factorializer](#august-18--factorializer)
+- [August 19 — Sum of Squares](#august-19--sum-of-squares)
+- [August 20 — 3 Strikes](#august-20--3-strikes)
+- [August 21 — Mile Pace](#august-21--mile-pace)
+- [August 22 — Message Decoder](#august-22--message-decoder)
+- [August 23 — Unnatural Prime](#august-23--unnatural-prime)
+- [August 24 — Character Battle](#august-24--character-battle)
+- [August 25 — Camel Case](#august-25--camel-case)
+- [August 27 — Unorder of Operations](#august-27--unorder-of-operations)
+- [August 28 — Second Best](#august-28--second-best)
+- [August 30 — Array Duplicates](#august-30--array-duplicates)
 
 ## About This Repository
 
@@ -66,7 +71,8 @@ I try to understand the problem first, then solve it using Python features I kno
 
 ## Progress
 
-- **Challenges completed:** 14
+- **Challenges completed:** 18
+- **Challenge period:** August 2025
 - **Language:** Python
 - **Status:** In progress
 
@@ -86,8 +92,6 @@ I used dictionaries to store the counts of `a`, `e`, `i`, `o`, and `u` in each h
 
 I was comfortable with string slicing, loops, dictionaries, and Python's built-in `count()` method. Breaking the problem into separate steps made the logic easier for me to understand and verify.
 
-I handled odd and even string lengths separately because that was the approach I could confidently implement at the time.
-
 ## August 12 — Base Check
 
 **Solution:** [`August-12_BaseCheck.py`](August-2025/August-12_BaseCheck.py)
@@ -100,9 +104,7 @@ The function checks each character in the input after converting it to uppercase
 
 ### Why I Chose This Approach
 
-I understood lists, dictionaries, loops, and membership checks, so I used them to represent the rules for each base.
-
-Building the lookup table myself helped me understand how the valid digits change between number systems without relying on a technique I wasn't yet comfortable with.
+I understood lists, dictionaries, loops, and membership checks, so I used them to represent the rules for each base. Building the lookup table myself helped me understand how the valid digits change between number systems.
 
 ## August 13 — Fibonacci Sequence
 
@@ -112,65 +114,45 @@ Building the lookup table myself helped me understand how the valid digits chang
 
 I copied the starting sequence into a new list and repeatedly added its last two numbers until the requested length was reached. I also handled requested lengths of zero and one separately.
 
-The loop checks the current length of the result. If it is shorter than the requested length, the function adds the last two numbers together and appends the result.
-
 ### Why I Chose This Approach
 
-I was comfortable working with lists, `while` loops, and `append()`. Rather than using recursion or a more complicated technique, I used the list itself to keep track of the sequence as it grew.
+I was comfortable working with lists, `while` loops, and `append()`. Rather than using recursion, I used the list itself to keep track of the sequence as it grew. Negative indexing let me access the latest two values.
 
-I used negative indexing because `[-1]` accesses the last item and `[-2]` accesses the second-to-last item. These positions automatically refer to the newest numbers as the list grows.
+## August 14 — Space Jam
 
-## August 13 — Space Jam
-
-**Solution:** [`August-13_SPACEJAM.py`](August-2025/August-13_SPACEJAM.py)
+**Solution:** [`August-14_SPACEJAM.py`](August-2025/August-14_SPACEJAM.py)
 
 ### Approach
 
-I used three string operations in sequence.
-
-First, I removed spaces using `replace(" ", "")`. Then I converted the remaining text to uppercase using `upper()`. Finally, I used `"  ".join()` to insert two spaces between every character.
+I removed normal spaces from the text, converted the remaining characters to uppercase, and used `"  ".join()` to insert two spaces between every character.
 
 ### Why I Chose This Approach
 
-I chose this approach because it uses straightforward string methods that I understand and can combine easily.
+I chose this approach because it uses straightforward string methods that I understand. Each operation handles one part of the problem, making the solution easy to follow.
 
-Each operation handles one part of the problem, which makes the solution simple to read and debug. Rather than manually looping through every character and building the output, I used Python's built-in string methods.
+## August 15 — Jbelmud Text
 
-## August 14 — Jbelmud Text
-
-**Solution:** [`August-14_jbelmuText.py`](August-2025/August-14_jbelmuText.py)
+**Solution:** [`August-15_jbelmuText.py`](August-2025/August-15_jbelmuText.py)
 
 ### Approach
 
-I split the input sentence into individual words using `split()` and created an empty list to store the processed words.
-
-I then looped through each word. Words with two or fewer characters were added to the result unchanged because they don't have any letters between the first and last characters to sort.
-
-For longer words, I separated the first letter, middle letters, and last letter using indexing and slicing. I sorted only the middle letters alphabetically, joined them back into a string, and combined all three parts. Each transformed word was added to the list.
-
-Finally, I used `" ".join()` to combine the processed words into the final sentence.
+I split the sentence into words and looped through them. For each word, I kept the first and last characters in place, sorted the characters in between, and joined the parts back together. Short words were left unchanged.
 
 ### Why I Chose This Approach
 
-I chose this approach because it breaks the problem into steps I already understand: splitting strings, looping through lists, indexing, slicing, sorting, and joining strings.
+This approach uses string splitting, loops, indexing, slicing, sorting, and joining. Keeping the first, middle, and last parts separate made it easier to see which characters were being rearranged.
 
-Keeping the first letter, middle section, and last letter in separate variables made it easier for me to see exactly which part of each word was being changed.
+## August 16 — Anagram Checker
 
-I also handled short words separately so that I wouldn't try to rearrange letters that don't exist.
-
-## August 15 — Anagram Checker
-
-**Solution:** [`August-15_AnagramChecker.py`](August-2025/August-15_AnagramChecker.py)
+**Solution:** [`August-16_AnagramChecker.py`](August-2025/August-16_AnagramChecker.py)
 
 ### Approach
 
-I used `replace(" ", "")` to remove spaces from both strings and converted them to lowercase using `lower()` to make the comparison case-insensitive.
-
-I then used `sorted()` to arrange the characters alphabetically and compared the sorted results. If they matched, the strings were anagrams.
+I removed normal spaces from both strings using `replace(" ", "")` and converted them to lowercase. I then used `sorted()` to arrange the characters alphabetically and compared the results.
 
 ### Why I Chose This Approach
 
-I chose sorting because it provides a straightforward way to compare two strings regardless of the original order of their characters. Removing spaces and converting to lowercase ensures that whitespace and casing do not affect the comparison.
+Sorting provides a straightforward way to compare strings regardless of the original order of their characters. Converting to lowercase makes the comparison case-insensitive.
 
 ## August 17 — Targeted Sum
 
@@ -180,9 +162,7 @@ I chose sorting because it provides a straightforward way to compare two strings
 
 I used a dictionary called `seen` to store numbers that had already been checked along with their indexes.
 
-For each number, I calculated the difference between the target and the current value. This tells me which number I need to find to reach the target.
-
-If that difference already exists in the dictionary, I return the index of the previously stored number and the current index. Otherwise, I add the current value and its index to the dictionary.
+For each number, I calculated the difference between the target and the current value. This tells me which number I need to find to reach the target. If that difference is already in the dictionary, I return the stored index and the current index. Otherwise, I store the current number and its index.
 
 ### Why I Chose This Approach
 
@@ -194,13 +174,11 @@ I chose this approach because it avoids checking every possible pair of numbers.
 
 ### Approach
 
-I created a range of numbers from `1` up to the given number and used a loop to multiply each number into a running total.
-
-The total starts at `1` because multiplying by zero would make every result zero. This approach also naturally handles the factorial of zero.
+I used a loop to multiply each number from `1` up to the given number into a running total. The total starts at `1`, which also allows the factorial of zero to be handled correctly.
 
 ### Why I Chose This Approach
 
-I chose a loop because multiplication and running totals are concepts I already understood. It allowed me to see exactly how a factorial is built step by step.
+A running total and a loop were concepts I already understood. This let me see how the factorial is built one multiplication at a time.
 
 ## August 19 — Sum of Squares
 
@@ -208,15 +186,11 @@ I chose a loop because multiplication and running totals are concepts I already 
 
 ### Approach
 
-I created a list containing the numbers from `1` up to the given number. I then used one loop to square each number and store the results in a new list.
-
-After that, I used another loop to add all the squared values together.
+I created a list of numbers, used a loop to square each number and store the results in another list, then used a separate loop to add the squared values together.
 
 ### Why I Chose This Approach
 
-I chose to separate the problem into two steps because it was easier for me to understand: first create the squares, then add them together.
-
-Although the two steps could be combined, this approach made it easier to see what was happening at each stage.
+I separated the problem into two steps because it was easier for me to follow: first create the squares, then calculate their sum.
 
 ## August 20 — 3 Strikes
 
@@ -224,13 +198,11 @@ Although the two steps could be combined, this approach made it easier to see wh
 
 ### Approach
 
-I looped through every number from `1` up to the given number and calculated its square.
-
-I then converted the square into a string and checked whether the digit `"3"` appeared anywhere in it. If it did, I increased the total count.
+I looped through the numbers from `1` up to the given number and calculated each square. I converted each square to a string and checked whether the digit `"3"` appeared in it. If it did, I increased the count.
 
 ### Why I Chose This Approach
 
-I chose this approach because it breaks the problem into simple steps that I understood: loop through the numbers, calculate the square, convert it to a string, and check for the digit.
+Converting the square to a string made it possible to check for a particular digit using a simple membership test. The loop keeps the process straightforward.
 
 ## August 21 — Mile Pace
 
@@ -238,15 +210,11 @@ I chose this approach because it breaks the problem into simple steps that I und
 
 ### Approach
 
-I split the duration string into minutes and seconds, then converted the entire duration into seconds.
-
-I divided the total number of seconds by the number of miles to find the average time per mile. I then converted the result back into minutes and seconds.
-
-Finally, I used an f-string with formatting to ensure that both minutes and seconds have leading zeros when necessary.
+I split the duration into minutes and seconds, then converted the time into total seconds. I divided that value by the number of miles to calculate the average time per mile, converted the result back into minutes and seconds, and formatted the output with leading zeros where needed.
 
 ### Why I Chose This Approach
 
-I chose to convert everything into seconds first because it made the calculation easier. Once I had the average number of seconds per mile, I could convert the result back into the required format.
+Converting the time to seconds first made the calculation easier. I only had to convert it back to the required time format after finding the pace.
 
 ## August 22 — Message Decoder
 
@@ -254,15 +222,13 @@ I chose to convert everything into seconds first because it made the calculation
 
 ### Approach
 
-I looped through every character in the encoded message and checked whether it was a letter.
+I looped through each character and checked whether it was a letter. For letters, I used `ord()` to get the character's numerical position and `chr()` to convert the decoded position back into a character.
 
-For letters, I checked whether they were uppercase or lowercase so the decoded character could keep the same case. I used `ord()` to convert characters into numerical positions and `chr()` to convert the decoded positions back into characters.
-
-I reversed the original shift to decode each letter, while `% 26` handles wrapping around the alphabet. Non-alphabetical characters are added to the decoded message unchanged.
+I handled uppercase and lowercase letters separately so the original case was preserved. I used modulo `26` to handle wrapping around the alphabet. Non-letter characters were kept unchanged.
 
 ### Why I Chose This Approach
 
-This challenge introduced me to a different way of working with characters by using their numerical values. I used this approach because it correctly handles uppercase letters, lowercase letters, wrapping around the alphabet, and non-letter characters.
+Using character codes gave me a way to shift letters mathematically while preserving their case. Modulo made it possible to wrap around the alphabet without needing separate cases for the beginning and end.
 
 ## August 23 — Unnatural Prime
 
@@ -270,15 +236,29 @@ This challenge introduced me to a different way of working with characters by us
 
 ### Approach
 
-I converted the number into a string and removed a negative sign if one was present. This allowed me to check the positive version of the number, since a negative prime is simply the negative version of a positive prime.
+I handled negative values by working with the positive version of the number. I first checked whether the number was less than `2`, since those values are not prime.
 
-I first checked whether the number was less than `2`, because `0` and `1` are not prime numbers.
-
-I then looped through possible divisors from `2` up to the number. If any number divided evenly into it, I returned `False`. If no divisors were found, the number was prime.
+I then looped through possible divisors. If any value divided evenly into the number, the function returned `False`. If no divisor was found, it returned `True`.
 
 ### Why I Chose This Approach
 
-I chose a loop because it helped me understand the definition of a prime number directly: a prime should not be evenly divisible by any number other than `1` and itself.
+I used a loop to check the definition of a prime number directly: it should not be evenly divisible by any number other than `1` and itself.
+
+## August 24 — Character Battle
+
+**Solution:** [`August-24_CharacterBattle.py`](August-2025/August-24_CharacterBattle.py)
+
+### Approach
+
+I created a dictionary that assigns strengths to lowercase letters, uppercase letters, and digits. Characters that are not in the dictionary are treated as having a strength of zero.
+
+I used `zip()` to pair each character in my army with the character at the same position in the opposing army. I compared their strengths and counted how many individual battles each side won.
+
+Before comparing the battle results, I checked the lengths of both armies to handle the retreat conditions.
+
+### Why I Chose This Approach
+
+The dictionary keeps the character strengths in one place, while `get()` lets me provide a default strength for characters that are not listed. Using `zip()` made it easy to compare matching positions without manually managing two indexes.
 
 ## August 25 — Camel Case
 
@@ -286,18 +266,52 @@ I chose a loop because it helped me understand the definition of a prime number 
 
 ### Approach
 
-I first replaced dashes and underscores with spaces so that all word separators could be handled in the same way.
-
-I then used `split()` to separate the text into individual words. The first word was converted to lowercase, while every following word was capitalized and added to the result.
+I replaced dashes and underscores with spaces so that both separators could be handled in the same way. I then split the text into words, converted the first word to lowercase, and capitalized each following word before joining everything together.
 
 ### Why I Chose This Approach
 
-I chose this approach because replacing all the separators with spaces simplified the problem. After that, I could use familiar string methods to process the words.
+Replacing the separators first simplified the problem. After that, I could use string methods I was already familiar with to build the camel-case result.
 
-## Future Updates
+## August 27 — Unorder of Operations
 
-I'll add new challenges to this README as I complete them, with a link to the Python file and a short explanation of my approach.
+**Solution:** [`August-27_UnorderOfOperations.py`](August-2025/August-27_UnorderOfOperations.py)
+
+### Approach
+
+I started with the first number as the running total, then processed the remaining numbers from left to right. I applied the next operator to the running total and current number, moving through the operator list in order. When I reached the end of the operator list, I reset the operator index to the beginning.
+
+The operations are applied in sequence rather than using normal mathematical operator precedence. Division uses floor division (`//`).
+
+### Why I Chose This Approach
+
+Using a running total let me perform one operation at a time and keep track of the result. An index made it possible to cycle through the operators without needing a more complicated expression evaluator.
+
+## August 28 — Second Best
+
+**Solution:** [`August-28_SecondBest.py`](August-2025/August-28_SecondBest.py)
+
+### Approach
+
+I used `set()` to remove duplicate laptop prices and `sorted()` to arrange the remaining prices. I then selected the second-highest distinct price.
+
+If that price was over the budget, I checked the available prices and returned the highest one that was still affordable. If no price was affordable, the function returned `0`.
+
+### Why I Chose This Approach
+
+Removing duplicates before sorting made it easier to identify the second-highest distinct price. Sorting also gave me a clear order to use when checking the budget.
+
+## August 30 — Array Duplicates
+
+**Solution:** [`August-30_ArrayDuplicates.py`](August-2025/August-30_ArrayDuplicates.py)
+
+### Approach
+
+I used a set to get the unique values in the array. I then checked how many times each value appeared in the original array using `count()`. Values that appeared more than once were added to the duplicates list, which I sorted before returning.
+
+### Why I Chose This Approach
+
+Using a set gave me a simple way to avoid checking the same value repeatedly. I used `count()` to check whether each unique value appeared more than once, then sorted the result to return it in order.
 
 ---
 
-*More challenges coming soon.*
+I'll keep adding new challenges here as I complete them.
