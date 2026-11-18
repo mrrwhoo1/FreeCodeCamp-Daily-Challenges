@@ -30,6 +30,7 @@ FreeCodeCamp-Daily-Challenges/
     ├── August-25_cameCase.py
     ├── August-27_UnorderOfOperations.py
     ├── August-28_SecondBest.py
+    ├── August-29_CandleLight.py
     └── August-30_ArrayDuplicates.py
 ```
 
@@ -57,6 +58,7 @@ FreeCodeCamp-Daily-Challenges/
 - [August 25 — Camel Case](#august-25--camel-case)
 - [August 27 — Unorder of Operations](#august-27--unorder-of-operations)
 - [August 28 — Second Best](#august-28--second-best)
+- [August 29 — Candlelight](#august-29--candlelight)
 - [August 30 — Array Duplicates](#august-30--array-duplicates)
 
 ## About This Repository
@@ -71,7 +73,7 @@ I try to understand the problem first, then solve it using Python features I kno
 
 ## Progress
 
-- **Challenges completed:** 18
+- **Challenges completed:** 19
 - **Challenge period:** August 2025
 - **Language:** Python
 - **Status:** In progress
@@ -299,6 +301,20 @@ If that price was over the budget, I checked the available prices and returned t
 ### Why I Chose This Approach
 
 Removing duplicates before sorting made it easier to identify the second-highest distinct price. Sorting also gave me a clear order to use when checking the budget.
+
+## August 29 — Candlelight
+
+**Solution:** [`August-29_CandleLight.py`](August-2025/August-29_CandleLight.py)
+
+### Approach
+
+I kept two running totals: `total_burned` for every candle I've burned so far, and `leftovers` for the burned candles waiting to be recycled. In each round of a `while` loop, I burned all the candles I had, adding them to both totals.
+
+I then used floor division (`//`) to work out how many new candles the leftovers could make, and modulo (`%`) to keep whatever was left over for the next round. The loop stops once there are no candles left to burn.
+
+### Why I Chose This Approach
+
+Simulating the process round by round matched the way the problem is described, so it was easy for me to follow. `//` and `%` split the leftovers into "new candles" and "still waiting" cleanly, without needing any extra data structures.
 
 ## August 30 — Array Duplicates
 
